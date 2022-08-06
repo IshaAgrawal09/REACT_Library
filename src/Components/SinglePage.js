@@ -49,7 +49,7 @@ const SinglePage = () => {
           </div>
           <div>
             <h5>Pages</h5>
-            <p>{data.docs[id].number_of_pages_median}</p>
+            <p>{data.docs[id]?.number_of_pages_median ?? "N/A"}</p>
           </div>
         </div>
         <p>
