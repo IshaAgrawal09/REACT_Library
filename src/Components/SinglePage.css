@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 .singlePage {
-  padding: 2%;
+  padding: 4% 2%;
   display: flex;
-  border: 1px solid #eee;
-  margin: 4% 2%;
+  /* border: 1px solid #eee; */
+  /* margin: 4% 2%; */
 }
 .singlePage-image-box {
   width: 25%;
@@ -31,7 +31,8 @@
   font-family: "El Messiri", sans-serif;
 }
 .content-data .blue {
-  color: #0f4c64;
+  color: rgb(12, 40, 92);
+  font-size: 18px;
 }
 #multipleData {
   width: 100%;
@@ -44,7 +45,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: rgb(201, 195, 164);
 }
 .contentDetailsData {
   font-size: 15px;
@@ -56,33 +57,35 @@
 /* BOOK DETAILS  */
 .Contentdetails {
   margin: 4% 0;
-  border: 1px solid #eee;
+  border: 1px solid rgb(156, 155, 155);
   padding: 2%;
   border-radius: 5px;
 }
 .Contentdetails h2 {
   font-family: "El Messiri", sans-serif;
 }
-.Contentdetails div{
-    margin: 2% 0;
+.Contentdetails div {
+  margin: 2% 0;
 }
 .Contentdetails .detailsData {
   /* line-height: 0.5; */
   font-size: 15px;
-  color: gray;
+  /* color: gray; */
+}
+.gap{
+  margin: 2% 0;
 }
 
-@media (max-width: 650px){
-    .singlePage {
-       flex-direction: column;
-       align-items: center;
-    }
-    .content-data {
-        margin: 5% 0 0 5%;
-        width: 95%;
-    }
-    .box {
-       width: 97%;
-
-      }
+@media (max-width: 650px) {
+  .singlePage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-data {
+    margin: 5% 0 0 5%;
+    width: 95%;
+  }
+  .box {
+    width: 97%;
+  }
 }

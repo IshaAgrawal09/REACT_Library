@@ -3,11 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.booksPage {
+  /* margin-top: -20px; */
+  padding: 2%;
+}
 .book-box {
   width: 90%;
   margin: 2% auto;
-  border: 1px solid #eee;
-  box-shadow: 1px 1px 7px #bdbbbb;
+  border: 2px ridge #eee;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px #807e7e;
   display: flex;
   padding: 2%;
 }
@@ -33,11 +38,11 @@
   padding-top: 4%;
 }
 /* DETAILS SECTION  */
-.details{
+.details {
   width: 65%;
 }
 .details h4 {
-  color: black;
+  /* color: black; */
   margin-bottom: 2%;
 }
 .details a {
@@ -48,13 +53,13 @@
 }
 .details #publish {
   font-size: 15px;
-  color: gray;
+  color: rgb(131, 129, 129);
 }
 .details #edition-language-para {
   font-size: 14px;
 }
 .details #edition {
-  color: rgb(65, 113, 202);
+  color: rgb(12, 40, 92);
 }
 /* BUTTON SECTION  */
 .button-box {
@@ -72,12 +77,16 @@
   margin: 4% 0;
 }
 .button-box #borrow {
-  background-color: #0f4c64;
-  border: 2px solid #0d4e68;
+  background-color: rgb(6, 53, 71);
+  border: 2px solid rgb(6, 53, 71);
+}
+.button-box a {
+  /* border: 6px solid red; */
 }
 .button-box #read {
+  width: 100%;
   background: #10661e;
-  border: 2px solid #208731;
+  border: 2px solid #10661e;
   border-right: 1px solid #68c474;
 }
 
